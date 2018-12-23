@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EventManager</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loginadmin">Admin</string>
+    <string name="loginstudent">Student</string>
+    <string name="title_activity_student_home">StudentHome</string>
+    <string name="title_interested">Interested</string>
+    <string name="title_events">Events</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_admin_home">AdminHome</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_addnewevent">Create Event</string>
+</resources>

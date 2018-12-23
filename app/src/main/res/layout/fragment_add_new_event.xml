@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddNewEvent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#3a0583"
+            android:fontFamily="casual"
+            android:id="@+id/addeventtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="CREATE NEW EVENT"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:padding="8dp"
+            android:textColor="#9d72d9"
+            android:background="@drawable/edittextbackground"
+            android:id="@+id/addeventname"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeventtitle"
+            android:layout_margin="10dp"
+            android:hint="Name"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:textColor="#9d72d9"
+            android:background="@drawable/edittextbackground"
+            android:padding="8dp"
+            android:id="@+id/addeventtype"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeventname"
+            android:layout_margin="10dp"
+            android:hint="Type"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:background="@drawable/edittextbackground"
+            android:padding="8dp"
+            android:id="@+id/addeventdescription"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="#9d72d9"
+            android:layout_below="@id/addeventtype"
+            android:layout_margin="10dp"
+            android:hint="Description"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/addeventstartdatetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/addeventdescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:textColor="#3a0583"
+            android:text="On"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:padding="10dp"
+            android:background="@drawable/edittextbackground"
+            android:id="@+id/addeventstartdate"
+            android:textColor="#9d72d9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeventdescription"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:hint="\tStart Date\t"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/addeventstartdatecal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeventdescription"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@android:drawable/ic_menu_today"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:padding="10dp"
+            android:background="@drawable/edittextbackground"
+            android:id="@+id/addeventamount"
+            android:textColor="#9d72d9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addeventstartdate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hint="\tRegistration Amount\t"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:text="If event is free please enter 0"
+            android:textColor="#000"
+            android:layout_below="@id/addeventamount"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/addeventcreatebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:background="@drawable/addneweventbutton"
+            android:text="CREATE"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

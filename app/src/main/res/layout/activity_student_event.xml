@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StudentEventActivity">
+
+    <TextView
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/addneweventbutton"
+        android:textColor="#ffffff"
+        android:id="@+id/eventname"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:text="EventName"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/eventtype"
+        android:layout_margin="5dp"
+        android:textSize="25dp"
+        android:layout_below="@id/eventname"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:layout_width="200dp"
+        android:text="Event Type"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:fontFamily="casual"
+            android:layout_below="@id/eventtype"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/eventstart"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:text="Date"
+            android:textColor="#9352c1"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:layout_below="@id/eventstart"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/eventfee"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:text="FREE"
+        android:textColor="#9352c1"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:textColor="#000000"
+        android:id="@+id/eventdescription"
+        android:layout_margin="5dp"
+        android:textSize="22dp"
+        android:layout_below="@id/eventfee"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:background="@drawable/edittextbackground"
+        android:textAlignment="center"
+        android:text="Event Description"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/addneweventbutton"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Register Here"
+        android:id="@+id/register"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
